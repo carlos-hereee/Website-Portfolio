@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: radial-gradient(black, red);
+}
+header p,
+header h1,
+header h3 {
+  color: white;
+}
+header img {
+  width: 300px;
+  height: auto;
+}
+.btn {
+  background-color: darkblue;
+  color: white;
+  border: 1px solid white ;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.wholepageContainer {
+  width: 1000px;
+}
+p {
+  color: black;
+}
+h1,
+h2,
+h3 {
+  color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.mainContent .intro {
+  display: none;
+}
+.mainContent .contact {
+  display: none;
+}
+.mainContent .skills {
+  display: none;
+}
