@@ -31,14 +31,11 @@ body {
   display: flex;
   justify-content: center;
 }
-.section .intro {
+.btn-item {
   display: none;
 }
-.section .contact {
-  display: none;
-}
-.section .skills {
-  display: none;
+.btn-item-selected {
+  display: block;
 }
 .btns-links {
   display: flex;
