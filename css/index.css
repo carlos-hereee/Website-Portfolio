@@ -31,14 +31,23 @@ body {
   display: flex;
   justify-content: center;
 }
-.section .intro {
-  display: none;
+.btn-items {
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
-.section .contact {
+.btn-item {
   display: none;
+  background: steelblue;
+  border-radius: 10px;
+  width: 75%;
 }
-.section .skills {
-  display: none;
+.btn-item-selected {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .btns-links {
   display: flex;
